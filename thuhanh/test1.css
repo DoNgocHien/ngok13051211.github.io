@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pc,
+.tablet,
+.mobile {
+    font-size: 60px;
+    text-align: center;
+    line-height: 176px;
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .tablet {
+        display: block;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .mobile {
+        display: block;
+    }
+}
